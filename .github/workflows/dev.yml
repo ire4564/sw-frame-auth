@@ -1,0 +1,22 @@
+name: Github Actions
+
+on:
+    push:
+        branches:
+            - develop
+
+jobs:
+    bump-version:
+        name: Bump version and push tag
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Tag
+              id: tag_version
+              uses: mathieudutour/github-tag-action@v6.0
+              with:
+                append_to_pre_release_tag: dev
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+

@@ -1,0 +1,8 @@
+feature: ['feature/*', 'feat/*']
+fix: fix/*
+docs: docs/*
+chore: chore/*
+style: style/*
+test: test/*
+refactor: refactor/*
+skip-changelog: ['develop', 'stage']

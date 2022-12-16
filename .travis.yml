@@ -1,0 +1,13 @@
+# .travis.yml - auto test
+language: node_js
+sudo: true
+node_js:
+  - 10
+install:
+  - npm install
+script:
+  - npm test
+notifications:
+  email:
+    recipients:
+      - dohee@sandboxnetwork.net

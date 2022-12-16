@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sandbox Auth Component render sandbox login button 1`] = `
+<SandboxLogin
+  URL="https://auth.sandworks.co.kr/"
+  clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+  sbResponseHandler={[Function]}
+>
+  <AuthComponent
+    API={[Function]}
+    URL="https://auth.sandworks.co.kr/"
+    buttonText="Login with Sandbox"
+    clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+    sbResponseHandler={[Function]}
+  >
+    <y
+      URL="https://auth.sandworks.co.kr/"
+      accessType="online"
+      buttonText="Sign in with Google"
+      clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+      cookiePolicy="single_host_origin"
+      disabledStyle={
+        Object {
+          "opacity": 0.6,
+        }
+      }
+      fetchBasicProfile={true}
+      icon={true}
+      isSignedIn={false}
+      onFailure={[Function]}
+      onRequest={[Function]}
+      onSuccess={[Function]}
+      prompt=""
+      render={[Function]}
+      scope="profile email"
+      tag="button"
+      theme="light"
+      type="button"
+      uxMode="popup"
+    >
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid transparent",
+            "borderRadius": "10px",
+            "boxShadow": "rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px",
+            "color": "#4e4c4c",
+            "cursor": "pointer",
+            "display": "flex",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "padding": "5px",
+          }
+        }
+      >
+        <SandboxLogo>
+          <svg
+            style={
+              Object {
+                "marginTop": "2px",
+                "width": "27px",
+              }
+            }
+            viewBox="0 0 1000 600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              fill="#000"
+              fillRule="evenodd"
+            >
+              <path
+                d="M 176.5,-0.5 C 177.167,-0.5 177.833,-0.5 178.5,-0.5C 237.167,33.8333 295.833,68.1667 354.5,102.5C 295.689,136.742 236.689,170.742 177.5,204.5C 117.851,171.01 58.5174,137.01 -0.5,102.5C -0.5,102.167 -0.5,101.833 -0.5,101.5C 58.6712,67.7493 117.671,33.7493 176.5,-0.5 Z"
+                fill="#e30d4d"
+                style={
+                  Object {
+                    "opacity": 0.994,
+                  }
+                }
+              />
+              <path
+                d="M 583.5,-0.5 C 584.167,-0.5 584.833,-0.5 585.5,-0.5C 644.002,34.2547 703.002,68.2547 762.5,101.5C 762.5,101.833 762.5,102.167 762.5,102.5C 703.483,137.01 644.149,171.01 584.5,204.5C 524.915,170.91 465.582,136.91 406.5,102.5C 465.664,68.4191 524.664,34.0858 583.5,-0.5 Z"
+                fill="#3cbcd7"
+                style={
+                  Object {
+                    "opacity": 0.994,
+                  }
+                }
+              />
+              <path
+                d="M -0.5,102.5 C 58.5174,137.01 117.851,171.01 177.5,204.5C 236.689,170.742 295.689,136.742 354.5,102.5C 355.494,111.986 355.827,121.652 355.5,131.5C 305.366,161.071 255.033,190.404 204.5,219.5C 203.83,278.736 203.163,338.069 202.5,397.5C 194.06,401.889 185.726,406.556 177.5,411.5C 118.39,377.045 59.0568,343.045 -0.5,309.5C -0.5,240.5 -0.5,171.5 -0.5,102.5 Z"
+                fill="#b11832"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+              <path
+                d="M 406.5,102.5 C 465.582,136.91 524.915,170.91 584.5,204.5C 644.149,171.01 703.483,137.01 762.5,102.5C 762.5,171.5 762.5,240.5 762.5,309.5C 702.943,343.045 643.61,377.045 584.5,411.5C 576.274,406.556 567.94,401.889 559.5,397.5C 558.504,338.571 558.171,279.571 558.5,220.5C 507.833,190.833 457.167,161.167 406.5,131.5C 406.5,121.833 406.5,112.167 406.5,102.5 Z"
+                fill="#31a1d2"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+              <path
+                d="M 406.5,131.5 C 457.167,161.167 507.833,190.833 558.5,220.5C 499.263,254.369 440.096,288.369 381,322.5C 321.71,288.778 262.876,254.444 204.5,219.5C 255.033,190.404 305.366,161.071 355.5,131.5C 363.858,126.32 372.525,121.653 381.5,117.5C 389.985,121.909 398.318,126.575 406.5,131.5 Z"
+                fill="#fbd30a"
+                style={
+                  Object {
+                    "opacity": 0.999,
+                  }
+                }
+              />
+              <path
+                d="M 204.5,219.5 C 262.876,254.444 321.71,288.778 381,322.5C 440.096,288.369 499.263,254.369 558.5,220.5C 558.171,279.571 558.504,338.571 559.5,397.5C 559.832,407.19 559.498,416.856 558.5,426.5C 499.77,460.527 441.104,494.527 382.5,528.5C 381.5,528.5 380.5,528.5 379.5,528.5C 321.131,494.164 262.465,460.164 203.5,426.5C 202.502,416.856 202.168,407.19 202.5,397.5C 203.163,338.069 203.83,278.736 204.5,219.5 Z"
+                fill="#f5b230"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+            </g>
+          </svg>
+        </SandboxLogo>
+        Login with Sandbox
+      </button>
+    </y>
+  </AuthComponent>
+</SandboxLogin>
+`;
+
+exports[`Sandbox Auth Component render sandbox signup button 1`] = `
+<SandboxSignup
+  URL="https://auth.sandworks.co.kr/"
+  clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+  sbResponseHandler={[Function]}
+>
+  <AuthComponent
+    API={[Function]}
+    URL="https://auth.sandworks.co.kr/"
+    buttonText="Sign up with Sandbox"
+    clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+    sbResponseHandler={[Function]}
+  >
+    <y
+      URL="https://auth.sandworks.co.kr/"
+      accessType="online"
+      buttonText="Sign in with Google"
+      clientId="844467004860-u5kti3btvik07itc8isihu2h9rdei8b5.apps.googleusercontent.com"
+      cookiePolicy="single_host_origin"
+      disabledStyle={
+        Object {
+          "opacity": 0.6,
+        }
+      }
+      fetchBasicProfile={true}
+      icon={true}
+      isSignedIn={false}
+      onFailure={[Function]}
+      onRequest={[Function]}
+      onSuccess={[Function]}
+      prompt=""
+      render={[Function]}
+      scope="profile email"
+      tag="button"
+      theme="light"
+      type="button"
+      uxMode="popup"
+    >
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid transparent",
+            "borderRadius": "10px",
+            "boxShadow": "rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px",
+            "color": "#4e4c4c",
+            "cursor": "pointer",
+            "display": "flex",
+            "fontSize": "14px",
+            "fontWeight": 500,
+            "padding": "5px",
+          }
+        }
+      >
+        <SandboxLogo>
+          <svg
+            style={
+              Object {
+                "marginTop": "2px",
+                "width": "27px",
+              }
+            }
+            viewBox="0 0 1000 600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              fill="#000"
+              fillRule="evenodd"
+            >
+              <path
+                d="M 176.5,-0.5 C 177.167,-0.5 177.833,-0.5 178.5,-0.5C 237.167,33.8333 295.833,68.1667 354.5,102.5C 295.689,136.742 236.689,170.742 177.5,204.5C 117.851,171.01 58.5174,137.01 -0.5,102.5C -0.5,102.167 -0.5,101.833 -0.5,101.5C 58.6712,67.7493 117.671,33.7493 176.5,-0.5 Z"
+                fill="#e30d4d"
+                style={
+                  Object {
+                    "opacity": 0.994,
+                  }
+                }
+              />
+              <path
+                d="M 583.5,-0.5 C 584.167,-0.5 584.833,-0.5 585.5,-0.5C 644.002,34.2547 703.002,68.2547 762.5,101.5C 762.5,101.833 762.5,102.167 762.5,102.5C 703.483,137.01 644.149,171.01 584.5,204.5C 524.915,170.91 465.582,136.91 406.5,102.5C 465.664,68.4191 524.664,34.0858 583.5,-0.5 Z"
+                fill="#3cbcd7"
+                style={
+                  Object {
+                    "opacity": 0.994,
+                  }
+                }
+              />
+              <path
+                d="M -0.5,102.5 C 58.5174,137.01 117.851,171.01 177.5,204.5C 236.689,170.742 295.689,136.742 354.5,102.5C 355.494,111.986 355.827,121.652 355.5,131.5C 305.366,161.071 255.033,190.404 204.5,219.5C 203.83,278.736 203.163,338.069 202.5,397.5C 194.06,401.889 185.726,406.556 177.5,411.5C 118.39,377.045 59.0568,343.045 -0.5,309.5C -0.5,240.5 -0.5,171.5 -0.5,102.5 Z"
+                fill="#b11832"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+              <path
+                d="M 406.5,102.5 C 465.582,136.91 524.915,170.91 584.5,204.5C 644.149,171.01 703.483,137.01 762.5,102.5C 762.5,171.5 762.5,240.5 762.5,309.5C 702.943,343.045 643.61,377.045 584.5,411.5C 576.274,406.556 567.94,401.889 559.5,397.5C 558.504,338.571 558.171,279.571 558.5,220.5C 507.833,190.833 457.167,161.167 406.5,131.5C 406.5,121.833 406.5,112.167 406.5,102.5 Z"
+                fill="#31a1d2"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+              <path
+                d="M 406.5,131.5 C 457.167,161.167 507.833,190.833 558.5,220.5C 499.263,254.369 440.096,288.369 381,322.5C 321.71,288.778 262.876,254.444 204.5,219.5C 255.033,190.404 305.366,161.071 355.5,131.5C 363.858,126.32 372.525,121.653 381.5,117.5C 389.985,121.909 398.318,126.575 406.5,131.5 Z"
+                fill="#fbd30a"
+                style={
+                  Object {
+                    "opacity": 0.999,
+                  }
+                }
+              />
+              <path
+                d="M 204.5,219.5 C 262.876,254.444 321.71,288.778 381,322.5C 440.096,288.369 499.263,254.369 558.5,220.5C 558.171,279.571 558.504,338.571 559.5,397.5C 559.832,407.19 559.498,416.856 558.5,426.5C 499.77,460.527 441.104,494.527 382.5,528.5C 381.5,528.5 380.5,528.5 379.5,528.5C 321.131,494.164 262.465,460.164 203.5,426.5C 202.502,416.856 202.168,407.19 202.5,397.5C 203.163,338.069 203.83,278.736 204.5,219.5 Z"
+                fill="#f5b230"
+                style={
+                  Object {
+                    "opacity": 0.997,
+                  }
+                }
+              />
+            </g>
+          </svg>
+        </SandboxLogo>
+        Sign up with Sandbox
+      </button>
+    </y>
+  </AuthComponent>
+</SandboxSignup>
+`;
